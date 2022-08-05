@@ -1,0 +1,122 @@
+/**
+ * @file Perimeters
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @author Yael Jimenez Rodriguez        2203025238
+ * @author Maria Fernanda Rico Arellano  2203070993
+ * @brief Esta biblioteca contiene las funciones de las formulas de los perimetros 
+ *          de figuras regulares.
+ * @version 0.1
+ * @date 2022-08-02
+ * @copyright Copyright (c) 2022
+ */
+
+/**
+ * @brief Calcula el perimetro del triangulo, para numeros enteros
+ * 
+ * @author Maria Fernanda Rico Arellano  2203070993
+ * @param lado1 
+ * @param lado2 
+ * @param lado3 
+ * @return long long 
+ */
+long long P_Triangulo(long long lado1, long long lado2, long long lado3);
+
+/**
+ * @brief Calcula el perimetro del triangulo, para numeros de punto flotante
+ * 
+ * @author Maria Fernanda Rico Arellano  2203070993
+ * @param lado1 
+ * @param lado2 
+ * @param lado3 
+ * @return double 
+ */
+double P_Triangulo(double lado1, double lado2, double lado3);
+
+
+/**
+ * @brief Calcula el perimetro del cuadrado, para numeros enteros
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return long long 
+ */
+long long P_Cuadrado(long long lado);
+
+/**
+ * @brief Calcula el perimetro del cuadrado, para numeros de punto flotante
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return double 
+ */
+double P_Cuadrado(double lado);
+
+
+/**
+ * @brief Calcula el perimetro del rectangulo, para numeros enteros
+ * 
+ * @author Yael Jimenez Rodriguez        2203025238
+ * @param base 
+ * @param altura 
+ * @return long long 
+ */
+long long P_Rectangulo(long long base, long long altura);
+
+/**
+ * @brief Calcula el perimetro del rectangulo, para numeros de punto flotante
+ * 
+ * @author Yael Jimenez Rodriguez        2203025238
+ * @param base 
+ * @param altura 
+ * @return double 
+ */
+double P_Rectangulo(double base, double altura);
+
+
+/**
+ * @brief Calcula el perimetro del pentagono, para numeros enteros
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return long long 
+ */
+long long P_Pentagono(long long lado);
+
+/**
+ * @brief Calcula el perimetro del pentagono, para numeros de punto flotante
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return double 
+ */
+double P_Pentagono(double lado);
+
+
+/**
+ * @brief Calcula el perimetro del hexagono, para numeros enteros
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return long long 
+ */
+long long P_Hexagono(long long lado);
+
+/**
+ * @brief Calcula el perimetro del hexagono, para numeros de punto flotante
+ * 
+ * @author Giovanna Carmona Mendoza      2203025167
+ * @param lado 
+ * @return double 
+ */
+double P_Hexagono(double lado);
+
+
+/**
+ * @brief Calcula el perimetro del circulo
+ * 
+ * @author Yael Jimenez Rodriguez        2203025238
+ * @param diametro 
+ * @return double 
+ */
+double P_Circulo(double diametro);
+
