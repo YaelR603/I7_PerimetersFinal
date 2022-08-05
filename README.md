@@ -19,8 +19,8 @@
 
 #Biblioteca estática
 
-Se debe clonar la biblioteca 
-Se crea un archivo main.cc donde se probaran las funciones de la biblioteca
-En main.cc se manda a llamar la bibliote : "include/Perimeters"
-Se ejecuta :  g++ main.cc -o testS -lperimeters -std=c++17
-Finalmente se ejecuta : .\testS.exe
+Se debe clonar la biblioteca.
+Se crea un archivo main.cc donde se probaran las funciones de la biblioteca.
+En main.cc se manda a llamar la bibliote : "include/Perimeters".
+Se ejecuta :  g++ main.cc -o testS -lperimeters -std=c++17 .
+Finalmente se ejecuta : .\testS.exe .
