@@ -18,6 +18,7 @@
 #testD es el nombre que se le dio anteriormente
 
 #Biblioteca estática
+
 Se debe clonar la biblioteca 
 Se crea un archivo main.cc donde se probaran las funciones de la biblioteca
 En main.cc se manda a llamar la bibliote : "include/Perimeters"
