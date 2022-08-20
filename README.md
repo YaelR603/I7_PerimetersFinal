@@ -1,6 +1,6 @@
 # I7_PerimetersFinal
 
-#Este repositorio permite caulcular los perimetros de las siguientes figuras: 
+#Este repositorio permite caulcular los perimetros de las siguientes figuras: \n
 #triangulo, rectangulo, cuadrado, pentagono, hexagono y circulo.
 
 #Biblioteca dinamica
