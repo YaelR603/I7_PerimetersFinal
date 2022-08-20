@@ -1,5 +1,8 @@
 # I7_PerimetersFinal
 
+Este repositorio permite caulcular los perimetros de las siguientes figuras:
+trangulo, rectangulo, cuadrado, pentagono, hexagono y circulo.
+
 #Biblioteca dinamica
 
 #El usuario debera copiar el directorio en el disco local(Windows).
