@@ -80,13 +80,12 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 
 #### A continuacion se mostrara como es la ejecucion del problema con la biblioteca estatica.
 
+
+Al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo de figura geometrica que se desea calcular el perimentro.
 ```
-Para poder ejecutar la biblioteca estatica se debera usar el siguiente comando anteriomente dicho:
-g++ main.cc -o testS -I .\path -L .\path -lperimetersS 
-una vez realizado lo anterior el usuario podra ingresar datos enteros y decimales segun sea el caso, con la resticcion que sean mayores que 0.
-Ahora el usuario podra ejecutar su main utilizanso .\testS.exe
-A continuacion se mostrara un ejemplo de como se puede ejecutar el problema:
-Realizamos nuestro main y lo ejecutamos con los comandos presentados anteriomente, al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo de figura geometrica que se desea calcular el perimentro.
+                         C A L C U L O   D E   P E R I M E T R O S 
+ --- NOTA: Ingrese numeros MAYORES de cero. --- 
+
         1. Cuadrado
         2. Rectangulo
         3. Triangulo
@@ -95,35 +94,44 @@ Realizamos nuestro main y lo ejecutamos con los comandos presentados anterioment
         6. Hexagono
         7. Salir
 Ingrese la opcion de la figura que quiere calcular: 1
+```
+Una vez seleccionada la figura podremos seleccionar el tipo de numero que ingresaremos entero o decimal. 
 
-Una vez seleccionado la figura podremos seleccionar el tipo de numero que ingresaremos entero o decimal. 
+```
                 CALCULO DEL PERIMETRO DEL CUADRADO
 
     1. Lado entero
     2. Lado decimal
     3. Salir
-En nuestro primer caso seleccionamos la opcion 1 y ingresamos nuestro numero entero, siguiendo la restriccion que el numero sea mayor que 0.
-
 Ingrese el tipo de numero que quiere trabajar:  1
+```
+En nuestro primer caso seleccionamos la opcion 1 e ingresamos nuestro numero entero, siguiendo la restriccion del principio, que decia que la medida sea mayor que 0
+
+```
  Lado: 5
-
- Como resultado obtenemos nuestro perimetro del cuadrado
  ----> El perimetro del cuadrado es:    20 
-
+ 
+```
+ Como resultado obtenemos nuestro perimetro del cuadrado
+ 
+```
     1. Lado entero
     2. Lado decimal
     3. Salir
-
-En caso contrario si escogemos la opcion 2 nuestra entrada debera ser un numero con decimales.
 Ingrese el tipo de numero que quiere trabajar:  2
+```
+En caso contrario si escogemos la opcion 2 nuestra entrada debera ser un numero con decimales. De igual manera se sigue la resticcion
 
-De igual manera se sigue la resticcion
+```
  Lado: 12.34
  ----> El perimetro del cuadrado es:    49.36 
 
-Otros ejemplos:
+```
+Otros ejemplos en el flujo de la ejecucion:
 
-            CALCULO DEL PERIMETRO DEL HEXAGONO
+```
+
+                CALCULO DEL PERIMETRO DEL HEXAGONO
 
     1. Lado entero
     2. Lado decimal
@@ -139,10 +147,42 @@ Ingrese el tipo de numero que quiere trabajar:  2
  Lado: 4.67
  ----> El perimetro del hexagono es:    28.02 
 
-            CALCULO DEL PERIMETRO DEL CIRCULO
-Diametro:       12.4
-Perimetro:      38.9557
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+Ingrese el tipo de numero que quiere trabajar:  3
+ 
+
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
+Ingrese la opcion de la figura que quiere calcular:  4
+
+
+                CALCULO DEL PERIMETRO DEL CIRCULO
+
+ Diametro: 12.4
+ ----> El perimetro del circulo es:     38.9557 
+ 
+
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
+Ingrese la opcion de la figura que quiere calcular:  7
+
+  -----> BYE :) <-----
+ 
 ```
+
+
 
 
 
