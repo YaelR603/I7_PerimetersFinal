@@ -78,7 +78,7 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 
 `.\testS.exe`
 
-#### A continuacion se mostrara como es la ejecucion del problema con la biblioteca estatica.
+#### A continuacion se mostrara como el flujo de la ejecucion del `main.cc` con la biblioteca estatica.
 
 
 Al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo de figura geometrica que se desea calcular el perimentro.
@@ -209,7 +209,7 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 
 > Un detalle a considerar para que corra el programa, es que la biblioteca dinamica debe estar al menos una carpeta arriba del ejecutable. Solamente asi se podra ejecutar.
 
-#### A continuacion se mostrara como es la ejecucion del problema con la biblioteca dinamica.
+#### A continuacion se mostrara como el flujo de la ejecucion del `main.cc` con la biblioteca dinamica.
 
 ```
 
