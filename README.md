@@ -81,7 +81,55 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 #### A continuacion se mostrara como es la ejecucion del problema con la biblioteca estatica.
 
 ```
+ara poder ejecutar la biblioteca estatica se debera usar el siguiente comando:
+g++ main.cc -o testS -I .\path -L .\path -lperimetersS
+anteriormente cometado, una vez realizado lo anterior el usuario podra ingresar datos enteros y decimales segun sea el caso, con la resticcion que sean mayores que 0.
+En nuestro ejemplo se visualiza nuestro menu, en el se podra escoger el tipo de dato que queremos ingresar.
+                CALCULO DEL PERIMETRO DEL CUADRADO
 
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+En nuestro primer caso seleccionamos la opcion 1 y ingresamos nuestro numero entero, siguiendo la restriccion que el numero sea mayor que 0.
+
+Ingrese el tipo de numero que quiere trabajar:  1
+ Lado: 5
+
+ Como resultado obtenemos nuestro perimetro del cuadrado
+ ----> El perimetro del cuadrado es:    20 
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+
+En caso contrario si escogemos la opcion 2 nuestra entrada debera ser un numero con decimales.
+Ingrese el tipo de numero que quiere trabajar:  2
+
+De igual manera se sigue la resticcion
+ Lado: 12.34
+ ----> El perimetro del cuadrado es:    49.36 
+
+Otros ejemplos:
+
+            CALCULO DEL PERIMETRO DEL HEXAGONO
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+Ingrese el tipo de numero que quiere trabajar:  1
+ Lado: 8
+ ----> El perimetro del hexagono es:    48 
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+Ingrese el tipo de numero que quiere trabajar:  2
+ Lado: 4.67
+ ----> El perimetro del hexagono es:    28.02 
+
+            CALCULO DEL PERIMETRO DEL CIRCULO
+Diametro:       12.4
+Perimetro:      38.9557
 ```
 
 
