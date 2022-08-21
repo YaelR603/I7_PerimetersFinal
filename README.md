@@ -81,10 +81,22 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 #### A continuacion se mostrara como es la ejecucion del problema con la biblioteca estatica.
 
 ```
-ara poder ejecutar la biblioteca estatica se debera usar el siguiente comando:
-g++ main.cc -o testS -I .\path -L .\path -lperimetersS
-anteriormente cometado, una vez realizado lo anterior el usuario podra ingresar datos enteros y decimales segun sea el caso, con la resticcion que sean mayores que 0.
-En nuestro ejemplo se visualiza nuestro menu, en el se podra escoger el tipo de dato que queremos ingresar.
+Para poder ejecutar la biblioteca estatica se debera usar el siguiente comando anteriomente dicho:
+g++ main.cc -o testS -I .\path -L .\path -lperimetersS 
+una vez realizado lo anterior el usuario podra ingresar datos enteros y decimales segun sea el caso, con la resticcion que sean mayores que 0.
+Ahora el usuario podra ejecutar su main utilizanso .\testS.exe
+A continuacion se mostrara un ejemplo de como se puede ejecutar el problema:
+Realizamos nuestro main y lo ejecutamos con los comandos presentados anteriomente, al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo de figura geometrica que se desea calcular el perimentro.
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
+Ingrese la opcion de la figura que quiere calcular: 1
+
+Una vez seleccionado la figura podremos seleccionar el tipo de numero que ingresaremos entero o decimal. 
                 CALCULO DEL PERIMETRO DEL CUADRADO
 
     1. Lado entero
