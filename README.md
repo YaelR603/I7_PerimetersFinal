@@ -210,8 +210,114 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 > Un detalle a considerar para que corra el programa, es que la biblioteca dinamica debe estar al menos una carpeta arriba del ejecutable. Solamente asi se podra ejecutar.
 
 #### A continuacion se mostrara como el flujo de la ejecucion del `main.cc` con la biblioteca dinamica.
-
+Cuando se ejecuta se verá un menú de opciones, donde se podra seleccionar el poligono que que se desea calcular el perimetro.
 ```
+                C A L C U L O   D E   P E R I M E T R O S 
+ --- NOTA: Ingrese numeros MAYORES de cero. ---
 
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
 ```
+Una vez que se selecciono número de poligono, podrás elegir el tipo de dato que desees.
 
+         CALCULO DEL PERIMETRO DEL CUADRADO
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  1
+    
+Posteriormente se pedira el valor de se lado y se hara el cálculo.
+
+       Lado: 13
+    
+    ----> El perimetro del cuadrado es:    52 
+    
+Después seleccionamos en lado decimal para hacer el cálculo
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  2
+    Lado: 7.9
+    ----> El perimetro del cuadrado es:    31.6 
+  
+Ejemplo del rectángulo
+
+       CALCULO DEL PERIMETRO DEL RECTANGULO
+
+    1. Altura y base enteros
+    2. Altura y base decimales
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  1
+    Altura: 4
+    Base: 6
+    ----> El perimetro del rectangulo es:  20 
+
+    1. Altura y base enteros
+    2. Altura y base decimales
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  2
+    Altura: 6.7
+    Base: 8.2
+    ----> El perimetro del rectangulo es:  29.8 
+    
+Ejemplo del círculo
+
+     C A L C U L O   D E   P E R I M E T R O S 
+        --- NOTA: Ingrese numeros MAYORES de cero. ---
+
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
+      Ingrese la opcion de la figura que quiere calcular:  4
+
+
+       Diametro:       5
+       Perimetro:      15.708
+       
+Ejemplo del pentágono
+    
+                CALCULO DEL PERIMETRO DEL PENTAGONO
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+     Ingrese el tipo de numero que quiere trabajar:  1
+    Lado: 7
+     ----> El perimetro del pentagono es:   35 
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+     Ingrese el tipo de numero que quiere trabajar:  2
+    Lado: 5.6
+     ----> El perimetro del pentagono es:   28 
+
+ejemplo de Hexágono
+
+     CALCULO DEL PERIMETRO DEL HEXAGONO
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  1
+    Lado: 3
+     ----> El perimetro del hexagono es:    18 
+
+    1. Lado entero
+    2. Lado decimal
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  2
+    Lado: 7.4
+     ----> El perimetro del hexagono es:    44.4 
+    
