@@ -282,8 +282,10 @@ Ejemplo del círculo
       Ingrese la opcion de la figura que quiere calcular:  4
 
 
-       Diametro:       5
-       Perimetro:      15.708
+                CALCULO DEL PERIMETRO DEL CIRCULO
+
+      Diametro: 5
+      ----> El perimetro del circulo es:    15.708
        
 Ejemplo del pentágono
     
