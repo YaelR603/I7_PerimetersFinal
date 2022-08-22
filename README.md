@@ -82,7 +82,7 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 
 Ejemplo perimetro del cuadrado
 
-Cuando ejecutamos el main se desplegara un menu en donde se podra escoger el tipo de poligono que se desea calcular el perimentro.
+Cuando ejecutamos el main se desplegara un menu en donde se podra escoger el tipo de poligono que se desea calcular el perimetro
 ```
                          C A L C U L O   D E   P E R I M E T R O S 
  --- NOTA: Ingrese numeros MAYORES de cero. --- 
