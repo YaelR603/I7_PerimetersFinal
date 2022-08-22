@@ -80,8 +80,9 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 
 #### A continuacion se mostrara como el flujo de la ejecucion del `main.cc` con la biblioteca estatica.
 
+Ejemplo perimetro del cuadrado
 
-Al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo de figura geometrica que se desea calcular el perimentro.
+Cuando ejecutamos el main se desplegara un menu en donde se podra escoger el tipo de poligono que se desea calcular el perimentro.
 ```
                          C A L C U L O   D E   P E R I M E T R O S 
  --- NOTA: Ingrese numeros MAYORES de cero. --- 
@@ -95,7 +96,7 @@ Al momento de ejecutarlo se desplegara un menu en donde se podra escoger el tipo
         7. Salir
 Ingrese la opcion de la figura que quiere calcular: 1
 ```
-Una vez seleccionada la figura podremos seleccionar el tipo de numero que ingresaremos entero o decimal. 
+Una vez seleccionada el poligono podremos seleccionar el tipo de dato, el cual podra ser entero o decimal. 
 
 ```
                 CALCULO DEL PERIMETRO DEL CUADRADO
@@ -105,7 +106,7 @@ Una vez seleccionada la figura podremos seleccionar el tipo de numero que ingres
     3. Salir
 Ingrese el tipo de numero que quiere trabajar:  1
 ```
-En nuestro primer caso seleccionamos la opcion 1 e ingresamos nuestro numero entero, siguiendo la restriccion del principio, que decia que la medida sea mayor que 0
+Primero vamos a seleccionar el tipo de dato entero e ingresamos el lado, siguiendo la restriccion del principio que la medida sea mayor que 0
 
 ```
  Lado: 5
@@ -120,7 +121,7 @@ En nuestro primer caso seleccionamos la opcion 1 e ingresamos nuestro numero ent
     3. Salir
 Ingrese el tipo de numero que quiere trabajar:  2
 ```
-En caso contrario si escogemos la opcion 2 nuestra entrada debera ser un numero con decimales. De igual manera se sigue la resticcion
+Posteriormente seleccionaremos el tipo de dato decimal, de igual manera se sigue la resticcion anteriormente dicha
 
 ```
  Lado: 12.34
@@ -128,6 +129,41 @@ En caso contrario si escogemos la opcion 2 nuestra entrada debera ser un numero 
 
 ```
 Otros ejemplos en el flujo de la ejecucion:
+
+Ejemplo del perimetro del rectangulo
+
+```
+ --- NOTA: Ingrese numeros MAYORES de cero. --- 
+
+        1. Cuadrado
+        2. Rectangulo
+        3. Triangulo
+        4. Circulo
+        5. Pentagono
+        6. Hexagono
+        7. Salir
+Ingrese la opcion de la figura que quiere calcular: 2
+
+            CALCULO DEL PERIMETRO DEL RECTANGULO
+
+    1. Altura y base enteros
+    2. Altura y base decimales
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  1
+    Altura: 5
+    Base: 3
+    ----> El perimetro del rectangulo es:  19 
+
+    1. Altura y base enteros
+    2. Altura y base decimales
+    3. Salir
+    Ingrese el tipo de numero que quiere trabajar:  2
+    Altura: 5.4
+    Base: 7.9
+    ----> El perimetro del rectangulo es:  26.6 
+```
+
+Ejemplo perimetro hexagono
 
 ```
 
@@ -161,8 +197,11 @@ Ingrese el tipo de numero que quiere trabajar:  3
         6. Hexagono
         7. Salir
 Ingrese la opcion de la figura que quiere calcular:  4
+```
 
+Ejemplo perimetro del circulo
 
+```
                 CALCULO DEL PERIMETRO DEL CIRCULO
 
  Diametro: 12.4
@@ -210,7 +249,8 @@ Si no arroja errores a la hora de la compilacion, se ejecuta de la siguiente man
 > Un detalle a considerar para que corra el programa, es que la biblioteca dinamica debe estar al menos una carpeta arriba del ejecutable. Solamente asi se podra ejecutar.
 
 #### A continuacion se mostrara como el flujo de la ejecucion del `main.cc` con la biblioteca dinamica.
-Cuando se ejecuta se verá un menú de opciones, donde se podra seleccionar el poligono que que se desea calcular el perimetro.
+
+Ejecutamos el main y se podra se visualizar un menú de opciones, donde se podra seleccionar el poligono que que se desea calcular el perimetro.
 ```
                 C A L C U L O   D E   P E R I M E T R O S 
  --- NOTA: Ingrese numeros MAYORES de cero. ---
